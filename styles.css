@@ -1,0 +1,20 @@
+#colorPicker {
+    display: block;  /* ensures the color picker is on its own line */
+    margin-bottom: 10px; /* adds some space below the color picker */
+}
+
+#gridContainer {
+    display: grid;
+    grid-template-columns: repeat(10, 20px); /* Assuming each cell is 20px wide */
+    grid-template-rows: repeat(10, 20px); /* Assuming each cell is 20px tall */
+    gap: 0;
+}
+
+.grid-cell {
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+    border: 1px solid #ddd; /* Adjust as needed */
+    box-sizing: border-box;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
